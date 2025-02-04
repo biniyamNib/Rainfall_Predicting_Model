@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict whether it will rain tomorrow in Australia using historical weather data. The problem is framed as a **binary classification task**, where the target variable is `RainTomorrow` (Yes/No). The project involves data exploration, preprocessing, model training, evaluation, and deployment.
+This project aims to predict whether it will rain tomorrow in using historical weather data. The problem is framed as a **binary classification task**, where the target variable is `RainTomorrow` (Yes/No). The project involves data exploration, preprocessing, model training, evaluation, and deployment.
 
 ## Table of Contents
 
@@ -115,10 +115,12 @@ This project aims to predict whether it will rain tomorrow in Australia using hi
 ```
 
 Rain_Prediction_Model/
-├── app.py           # FastAPI application   
-├── Document.pdf      # Documentation
-├── main.py           # Script for data preprocessing and training the model
-├── requirements.txt  # Python dependencies
+├── app.py                       # FastAPI application   
+├── Document.pdf                 # Documentation
+├── main.py                      # Script for data preprocessing and training the model
+├── rain_prediction_model.joblib # Trained model
+├── requirements.txt             # Python dependencies
+├── Weather.csv                  # csv file
 └── README.md  
 
 ```
